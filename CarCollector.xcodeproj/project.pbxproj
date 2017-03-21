@@ -13,6 +13,8 @@
 		963B90701E814B3D0029CF65 /* CarCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 963B906E1E814B3D0029CF65 /* CarCollector.xcdatamodeld */; };
 		963B90721E814B3D0029CF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963B90711E814B3D0029CF65 /* Assets.xcassets */; };
 		963B90751E814B3D0029CF65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963B90731E814B3D0029CF65 /* LaunchScreen.storyboard */; };
+		963B907D1E8160040029CF65 /* AudiA7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 963B907C1E8160040029CF65 /* AudiA7.jpg */; };
+		963B90811E8163490029CF65 /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963B90801E8163490029CF65 /* CarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		963B90711E814B3D0029CF65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		963B90741E814B3D0029CF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		963B90761E814B3D0029CF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963B907C1E8160040029CF65 /* AudiA7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AudiA7.jpg; sourceTree = "<group>"; };
+		963B90801E8163490029CF65 /* CarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarViewController.swift; path = ../CarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			children = (
 				963B90661E814B3D0029CF65 /* CarCollector */,
 				963B90651E814B3D0029CF65 /* Products */,
+				963B907C1E8160040029CF65 /* AudiA7.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +63,7 @@
 			children = (
 				963B90671E814B3D0029CF65 /* AppDelegate.swift */,
 				963B90691E814B3D0029CF65 /* ViewController.swift */,
+				963B90801E8163490029CF65 /* CarViewController.swift */,
 				963B906B1E814B3D0029CF65 /* Main.storyboard */,
 				963B90711E814B3D0029CF65 /* Assets.xcassets */,
 				963B90731E814B3D0029CF65 /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 			files = (
 				963B90751E814B3D0029CF65 /* LaunchScreen.storyboard in Resources */,
 				963B90721E814B3D0029CF65 /* Assets.xcassets in Resources */,
+				963B907D1E8160040029CF65 /* AudiA7.jpg in Resources */,
 				963B906D1E814B3D0029CF65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +149,7 @@
 				963B90701E814B3D0029CF65 /* CarCollector.xcdatamodeld in Sources */,
 				963B906A1E814B3D0029CF65 /* ViewController.swift in Sources */,
 				963B90681E814B3D0029CF65 /* AppDelegate.swift in Sources */,
+				963B90811E8163490029CF65 /* CarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
